@@ -10,7 +10,7 @@ The following **required** functionality is completed:
 
 The following **extensions** are implemented:
 
-* [x] Dynamic navigation arrow keys for visual cues
+* [x] Dynamic navigation arrow keys and button contrast on hover as visual cues
 * [x] Adopts the progressive disclosure approach for displaying information
 * [x] Multi-view navigation with static links using React Router
 

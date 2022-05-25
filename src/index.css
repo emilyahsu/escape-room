@@ -5,10 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #506E9A;
+  background-color: #000000;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "technology";
+  src: url(./fonts/technology/Technology.ttf);
+}
+
+@font-face {
+  font-family: "toki-pona";
+  src: url(./fonts/linja-pona.otf);
 }

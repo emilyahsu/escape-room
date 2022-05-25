@@ -1,16 +1,16 @@
 import {
     Link,
   } from 'react-router-dom';
-import React from 'react';
+import React, {useEffect} from 'react';
 import './main.css';
   
-function Welcome (){
+const Welcome = () => {
     return (
-    <Link to="/name" style={{ textDecoration: 'none', height: '100vh', width: '100vh' }}>
+    <Link to="/inner" style={{ textDecoration: 'none', height: '100vh', width: '100vh' }}>
         <div className='welcome'>
-            <h1>Welcome to BAADS Scheduler</h1>
-            <p className="opening">BAADS sails every weekend year-round, weather permitting. We’re here to help you schedule a time with a sighted volunteer guide who can help you navigate the pier.</p>
-            <p style={{textDecoration: 'underline'}}>Click anywhere or press Enter to continue</p>
+            <p className="opening">You’ve been stranded on an planet after an engine malfunction, and crash landed in an alien civilization.</p> 
+            <p>Your spacesuit only has 45 minutes of oxygen left.</p>
+            <p style={{textDecoration: 'underline'}}>Click anywhere to begin</p>
         </div>
     </Link> 
     );

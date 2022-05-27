@@ -23,16 +23,23 @@ h1 {
 p {
     font-size: 30px;
     margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 input[type=text] {
-    width: 60vw;
-    padding: 10px;
+    width: 110px;
+    padding: 1px;
     font-size: 30px;
+    font-family: "technology";
     border: none;
-    border-bottom: 2px solid white;
-    background-color: #506E9A;
-    color: white;
+    border-bottom: 1px solid rgb(234, 255, 99);
+    background-color: #000000;
+    color: rgb(234, 255, 99);
+    text-align: "center";
+}
+
+input:disabled {
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 ::placeholder {
@@ -118,9 +125,8 @@ button {
     font-weight: bold;
     font-family: "technology";
     background-color: #f7fb7a;
-    height: 200px;
+    height: 130px;
     color: #000000;
-    padding: 20px;
     border-radius: 10px;
     border: none;
     margin-left: 15px;

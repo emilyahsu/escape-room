@@ -7,6 +7,7 @@ import './App.css';
 import Welcome from './components/Welcome';
 import Countdown from 'react-countdown';
 import InnerRouter from './components/InnerRouter';
+import End from './components/End';
 
 function App() {
   return (

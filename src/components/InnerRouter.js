@@ -6,35 +6,42 @@ import {
   import '../App.css';
   import Countdown from 'react-countdown';
   import Decipher from './Decipher';
-  import Grammar from './Grammar';
+  import Symbols from './Symbols';
+  import {useState} from 'react'
+  import { useHistory } from 'react-router-dom';
+import End from './End';
 
   
-  function InnerRouter() {
+  const InnerRouter = () =>  {
 
     let { path, url } = useRouteMatch();
+    const history = useHistory()
+    const [done, setDone] = useState(false)
 
-    return (<div>
+    return (<>{ done ? <End />
+    : <div>
       <div className='countdown'>
         <p>Time Remaining</p>
-        <Countdown date={Date.now() + 2.7e+6} />
+        <Countdown date={Date.now() + 2.7e+6} onComplete={() => setDone(true)} />
       </div>
       <Router>
         <div>
           {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
           <Switch>
+            
+            <Route path={`${path}/second`}>
+              <Symbols />
+            </Route>
             <Route exact path={path}>
               <Decipher />
-            </Route>
-            <Route path={`${path}/grammar`}>
-              <Grammar />
             </Route>
           </Switch>
         </div>
       </Router>
     </div>
   
-    );
+          }</>);
   }
   
   export default InnerRouter;

@@ -1,24 +1,25 @@
-# BAADS Scheduler
-**BAADS Scheduler** is an accessible scheduling platform created for the Bay Area Association of Disabled Sailors designed to accomodate low vision and blind users.
+# Ma Nasa Web App
+**Ma Nasa** is an alien-themed escape room that features two puzzle for the player to solve. This web app provides instructions and hints for the players at each stage of the game.
 
 ## Functionality
 
 The following **required** functionality is completed:
 
-* [x] Ability to navigate the website entirely with keyboard shortcuts
-* [x] Compatible with built-in screen readers Narrator (Windows) and VoiceOver (MacOS)
+* [x] Game introduction and time-based hint system
+* [x] Fill-in-the-blank sentences for the language deciphering portion of the game 
+* [x] Countdown timer displayed in the top left corner
 
 The following **extensions** are implemented:
 
-* [x] Dynamic arrow keys and button contrast on hover as visual cues
-* [x] Adopts the progressive disclosure approach for displaying information
+* [x] Sound effects when a hint unlocks, when the user get the right word, and when the player solves the puzzle
+* [x] Words are locked in for the fill-in-the-blank when the player gets the right word
 * [x] Multi-view navigation with static links using React Router
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src="walkthrough.gif" width="1600">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qE1c5U5LWMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 

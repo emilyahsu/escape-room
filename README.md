@@ -17,9 +17,6 @@ The following **extensions** are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qE1c5U5LWMc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+Here's a walkthrough of implemented user stories: https://www.youtube.com/watch?v=qE1c5U5LWMc
 
 
